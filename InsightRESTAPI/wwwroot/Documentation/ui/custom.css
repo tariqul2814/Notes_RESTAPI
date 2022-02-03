@@ -1,0 +1,69 @@
+﻿
+.swagger-ui .topbar {
+    background-color: #fff; /*#605e66*/
+    border-bottom: 3px solid black;
+}
+
+a {
+    color: #3b4151 !important;
+}
+
+.swagger-ui .topbar .download-url-wrapper {
+    display: none;
+    flex: 3;
+    justify-content: flex-end;
+}
+
+.link img {
+    max-width: 100%;
+}
+
+.url {
+    display: none;
+}
+
+small {
+    background: rgb(247, 148, 32) !important;
+}
+
+.swagger-ui .topbar {
+    background-color: #fff;
+    border-bottom: 1px solid black;
+}
+
+.swagger-ui .info {
+    margin: 20px 0;
+}
+
+.swagger-ui .scheme-container {
+    margin: 0 0 20px;
+    padding: 20px 0;
+    background: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+}
+
+.swagger-ui .btn.authorize {
+    line-height: 1;
+    display: inline;
+    color: #49cc90;
+    border-color: #49cc90;
+    background-color: transparent;
+}
+
+    .swagger-ui .btn.authorize svg {
+        fill: #49cc90;
+    }
+
+.swagger-ui .response-control-examples__title, .swagger-ui .response-control-media-type__title {
+    display: block;
+    margin-bottom: .2em;
+    font-size: .9em;
+    background-color: inherit !important;
+}
+
+.swagger-ui .response-control-media-type__accept-message {
+    color: green;
+    font-size: .9em;
+    background-color: inherit !important;
+    margin-top: .2em;
+}
